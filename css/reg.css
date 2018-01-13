@@ -1,0 +1,19 @@
+body::after {
+  content: "";
+  background: url(../images/background-forRegister.jpg);
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img
+{
+    width: 500px;
+    height:500px;
+    border-bottom-color: black;
+}
