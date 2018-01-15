@@ -9,11 +9,40 @@ body::after {
   position: absolute;
   z-index: -1; 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:100%;
 }
 img
 {
-    width: 500px;
-    height:500px;
+    width: 450px;
+    height:430px;
     border-bottom-color: black;
+}
+.button {
+  padding: 5px;20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: dimgrey;
+  background-color:   #B8B8FF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px
+      #345;
+}
+
+.button:hover {background-color: #9999C2}
+
+.button:active {
+  background-color: #6685C2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.floating-box {
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  border: 3px solid #73AD21;
+  vertical-align: top;
 }
